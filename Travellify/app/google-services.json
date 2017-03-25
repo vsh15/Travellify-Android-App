@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "738347525408",
+    "project_id": "firebase-travellify"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738347525408:android:776bd273dafb272c",
+        "android_client_info": {
+          "package_name": "com.mobileappclass.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738347525408-selar40n7qo2urraco6frddskaiiltt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobileappclass.travel",
+            "certificate_hash": "E0F840B2295B3174349642407B162ED8E22C2CBC"
+          }
+        },
+        {
+          "client_id": "738347525408-rv830uhueskmf8mlg9ulubbqrmvnvfbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM1-oWwtMlYHUdEBTsYc9VcxIEwb6W3HQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

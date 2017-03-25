@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+  >
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/resultsList"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:padding="16dp"-->
+    <!--/>-->
+
+      <ImageView
+          android:id="@+id/image"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:layout_gravity="center_horizontal|top"
+          android:background="?android:windowBackground"
+          />
+
+      <GridView
+          android:numColumns="auto_fit"
+          android:gravity="center"
+          android:columnWidth="100dp"
+          android:stretchMode="columnWidth"
+          android:layout_width="fill_parent"
+          android:layout_height="240dp"
+          android:id="@+id/resultsList"
+          android:horizontalSpacing="8dp"
+          android:verticalSpacing="8dp"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center"
+>
+          <EditText
+             android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:id="@+id/editFriend"
+              android:visibility="gone"
+              />
+
+          <AutoCompleteTextView
+              android:id="@+id/autoCompleteTextView1"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="5dp"
+              android:layout_marginBottom="185dp"
+              android:ems="10"
+              android:completionThreshold="1"
+              android:visibility="gone"
+              android:textStyle="bold"
+              android:textColor="@color/primary"
+           />
+          <Button
+              android:layout_width="60dp"
+              android:layout_height="56dp"
+              android:layout_margin="10dp"
+              android:layout_marginTop="205dp"
+              android:id="@+id/buttonAdd"
+              android:visibility="gone"
+              android:background="@drawable/add_black"
+             />
+
+      </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/upload_black_new"
+            android:id="@+id/buttonUpload"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonContainer"
+            android:layout_toRightOf="@+id/buttonUpload">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_menu_share"
+            android:id="@+id/share"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/star1"
+            android:id="@+id/showGrid"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            />
+
+        </LinearLayout>
+  <Button
+      android:id="@+id/buttonChoose"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="@drawable/ic_menu_gallery"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_toRightOf="@+id/buttonContainer"
+
+  />
+
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_menu_camera"
+            android:id="@+id/buttonCamera"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@+id/buttonChoose"
+            />
+
+
+    </RelativeLayout>
+  </LinearLayout>
+
+</LinearLayout>

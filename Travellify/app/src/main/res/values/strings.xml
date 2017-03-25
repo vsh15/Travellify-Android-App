@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Travellify</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_upload">Upload Images</string>
+    <string name="clarifai_id">fGRMad0TMkjoAtU-dVScH7hufhpr0nJJDPS58ezY</string>
+    <string name="clarifai_secret">vJ94HPl6v6SUYYOpXzHdD4_pgEdiUzD9aF7nTsUU</string>
+
+    <string name="error_external_storage_permission_not_granted">You must accept this permission so we can upload your images!</string>
+
+    <string name="error_while_contacting_api">Error while contacting Clarifai API</string>
+    <string name="no_results_from_api">API did not return any results</string>
+
+    <string name="upload_image_hint">Click the button in the bottom-right corner to upload an image!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyCKkoST3rQQBDtvogw0mtlFosLfXBfN9lg
+    </string>
+</resources>

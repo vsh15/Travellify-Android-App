@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+    <!--<android.support.v7.widget.Toolbar android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"-->
+    <!--android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/name"/>
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+
+        android:layout_gravity="bottom"
+        android:textStyle="normal|italic"
+        android:fontFamily="casual"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="18sp"
+        android:fontFamily="casual"
+        android:textStyle="bold|italic"
+        android:textColor="@color/md_indigo_900"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        android:text="Plan a trip with us !"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="268dp"
+        android:layout_height="146dp"
+
+        android:id="@+id/imageView2"
+        tools:layout_gravity="top"
+        android:layout_gravity="top"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="fill_parent"
+        android:layout_height="73dp"
+        android:id="@+id/signIn"
+        android:layout_gravity="right|start"
+        android:foregroundGravity="top"
+        android:background="@color/material_drawer_dark_divider"
+        android:theme="@style/AppTheme"
+        android:textAlignment="gravity"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"></com.google.android.gms.common.SignInButton>
+
+</RelativeLayout>
